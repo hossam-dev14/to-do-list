@@ -1,0 +1,53 @@
+body {
+  background-color: #1e3b57 !important;
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.todos {
+	max-width: 400px;
+  	box-shadow: inset 0px 1px 10px 2px #fff;
+	
+}
+
+.todos li {
+  background: #225d8c;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.delete:hover {
+  transform: scale(1.22);
+  transition: all 0.3s;
+}
+
+.filtered{ display: none !important;}
+
+.add{
+  position: relative;
+}
+.addTodos {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="submit"] { 
+  color: #fff;
+  background-color: #225d8c;
+  border: none;
+  border-radius: .25rem;
+
+}
